@@ -1,0 +1,11 @@
+<string_table>
+	<string id="ui_mcm_menu_protectPlayerStashes">
+		<text>Keep Stashes</text>
+	</string>
+	<string id="ui_mcm_protectPlayerStashes_enableProtection">
+		<text>Protect Player Stashes</text>
+	</string>
+	<string id="ui_mcm_protectPlayerStashes_enableProtection_desc">
+		<text>Taking all items from a player-created stash will no longer remove the stash. Hold down [CTRL] key while taking the last item to override this behavior.</text>
+	</string>
+</string_table>

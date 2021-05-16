@@ -1,0 +1,31 @@
+local function actor_on_stash_remove(data)
+    local enableProtection = ui_mcm.get("protectPlayerStashes/enableProtection")
+    local ctrl = key_state(DIK_keys.DIK_LCONTROL) ~= 0
+
+    if enableProtection and not ctrl then
+        data.cancel = true
+    end
+end
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_stash_remove", actor_on_stash_remove)
+end
+
+function on_mcm_load()
+    op = {
+        id = "protectPlayerStashes",
+        sh = true,
+        gr = {
+            {
+                id = "title",
+                type = "slide",
+                link = "ui_options_slider_player",
+                text = "ui_mcm_menu_protectPlayerStashes",
+                size = {512, 50},
+                spacing = 20
+            }, {id = "enableProtection", type = "check", val = 1, def = false}
+        }
+    }
+
+    return op
+end
