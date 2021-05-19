@@ -17,3 +17,5 @@ This is only for keeping *empty* personal stashes on the ground so you will not 
 
 # Special Thanks
 RavenAscendant, Lucy.xr
+
+https://github.com/Ishmaeel/keep-stash
