@@ -1,9 +1,9 @@
-# KeepStash v1.0
+# KeepStash v1.1
 "Permanent" player stash addon for [S.T.A.L.K.E.R. Anomaly v1.5.1](https://www.moddb.com/mods/stalker-anomaly)
 
 # Installation
 * Extract the gamedata wherever it will give you the greatest joy, dear Bates, I would want you to extract it nowhere less. 
-* Requires [Anomaly Mod Configuration Menu (MCM)](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu).
+* [Anomaly Mod Configuration Menu (MCM)](https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-mod-configuration-menu) recommended.
 
 # And Then?
 You will see a **Protect Player Stashes** checkbox under MCM options. While checked, any stashes you have in the world by using backpacks will be *permanent*.
@@ -16,6 +16,6 @@ When you really want to destroy a stash and retrieve the backpack, you can hold 
 This is only for keeping *empty* personal stashes on the ground so you will not have to put them down again after you take all items accidentally or intentionally.
 
 # Special Thanks
-RavenAscendant, Lucy.xr
+RavenAscendant, Lucy.xr, Xcvb
 
 https://github.com/Ishmaeel/keep-stash

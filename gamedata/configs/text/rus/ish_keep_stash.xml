@@ -1,0 +1,11 @@
+<string_table>
+	<string id="ui_mcm_menu_protectPlayerStashes">
+		<text>Сохранение тайников</text>
+	</string>
+	<string id="ui_mcm_protectPlayerStashes_enableProtection">
+		<text>Защита тайников игрока</text>
+	</string>
+	<string id="ui_mcm_protectPlayerStashes_enableProtection_desc">
+		<text>Изъятие всех предметов из тайника, созданного игроком, больше не убирает тайник в инвентарь. Удерживайте нажатой клавишу [CTRL] при выборе последнего предмета, чтобы убрать тайник в инвентарь.</text>
+	</string>
+</string_table>
