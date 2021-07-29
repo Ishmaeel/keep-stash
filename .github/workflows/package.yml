@@ -3,7 +3,7 @@ name: Repack
 
 # Customize the contents of the Zip package here:
 env:
-  ZIP_PREFIX: KeepStash
+  RELEASE_NAME: "KeepStash"
   ZIP_CONTENTS: "*.txt gamedata"
 
 on:
@@ -34,9 +34,9 @@ jobs:
       - name: Zip folder
         run: |
           mv README.md readme.txt
-          zip -r $RELEASE_NAME.zip $ZIP_CONTENTS
+          zip -r $RELEASE_NAME.$RELEASE_DATE.zip $ZIP_CONTENTS
         env: 
-          RELEASE_NAME: $ZIP_PREFIX.${{ steps.date.outputs.today }}
+          RELEASE_DATE: ${{ steps.date.outputs.today }}
       
       - name: Publish
         id: publish
